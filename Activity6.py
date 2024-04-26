@@ -38,7 +38,6 @@ while True:
             continue
         elif choice== 'N': # Exits loop
             break
-
     except Exception as e:
         print(e)
 
