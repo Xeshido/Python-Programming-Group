@@ -40,14 +40,9 @@ while True:
 
     choice = input("\nEnter another? [Y/N]: ").upper() # User input
 
-    if choice != 'Y' and choice != 'N':   
-        while True:
-            print("Invalid input!")
-            choice = input("Enter another? [Y/N]: ") # Aks user repeatedly until user enters valid input
-            if choice == 'Y' or choice == 'N':
-                break
-            else:
-                continue
+    while choice != 'Y' and choice != 'N':
+        print("Invalid input!")
+        choice = input("Enter more? [Y/N]: ") # Aks user repeatedly until user enters valid input
 
     if choice == 'Y': # Continues loop
         continue
