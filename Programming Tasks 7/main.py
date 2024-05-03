@@ -1,4 +1,5 @@
-from denominations import calculate_denominations, display_denominations
+# to access specified methods from denominations module
+from denominations import calculate_denominations, display_denominations  
 
 def get_amount():
     while True:
